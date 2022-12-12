@@ -1,0 +1,14 @@
+- name: create dir
+  hosts: bender, zoidberg, fry
+
+  tasks:
+
+    - name: dir
+      file:
+        path: mynewdir
+        state: directory
+
+    - name: file
+      copy:
+        dest: mynewdir/1.txt
+        content: "test"

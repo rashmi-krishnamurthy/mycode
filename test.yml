@@ -1,5 +1,5 @@
 - name: create dir
-  hosts: bender, zoidberg, fry
+  hosts: planetexpress #bender, zoidberg, fry
 
   tasks:
 
